@@ -55,7 +55,7 @@ Para entrar na ajudar interativa use help:
 > help ()
 ```
 
-no Promt do help é possivel consultar os módulos instalados:
+No Promt do help é possivel consultar os módulos instalados:
 
 ```
 help> modules
