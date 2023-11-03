@@ -94,7 +94,10 @@ Adicionar a chave SSH privada ao agente ssh:
 ```
 ssh-add --apple-use-keychain .ssh/id_ed25519
 ```
-
+ ou (em versões antigas do OS):
+```
+ssh-add -K .ssh/id_ed25519
+```
 Criar o arquivo config:
 ```
 touch .ssh/config
