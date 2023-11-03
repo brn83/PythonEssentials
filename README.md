@@ -73,6 +73,6 @@ help> q
 
 ### IDEs
 
-* micro-editor.github.io
-* code.visualstudio.com
+*  [Micro] (micro-editor.github.io)
+* [VS Code} (code.visualstudio.com)
 
