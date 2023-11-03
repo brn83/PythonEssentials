@@ -24,7 +24,7 @@ Onlines IDEs
 ## Aula 2
 
 ```
-> python3 -c "print('bruno'.upper())""
+> python3 -c "print('bruno'.upper())"
 
 ```
 
