@@ -60,3 +60,8 @@ No Promt do help é possivel consultar os módulos instalados:
 ```
 help> modules
 ```
+
+Tópicos de ajuda no prompt do help:
+```
+help> topics
+```
