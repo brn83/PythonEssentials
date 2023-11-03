@@ -48,3 +48,15 @@ Entrar no terminal interativo do Python (REPL - Read-Eval-Print-Loop):
 ```
 > python
 ```
+
+Para entrar na ajudar interativa use help:
+
+```
+> help ()
+```
+
+no Promt do help é possivel consultar os módulos instalados:
+
+```
+help> modules
+```
