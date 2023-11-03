@@ -76,4 +76,30 @@ help> q
 *  [Micro](https://micro-editor.github.io)
 * [VS Code](https://code.visualstudio.com)
 
-=====
+## Aula 3
+
+### GIT
+
+Siga os passos abaixo para gerar um nova chave SSH:
+```
+ssh-keygen -t ed25519 -C "seu_email@gmail.com"
+```
+
+Então, inicie o ssh-agent em segunto plano:
+```
+eval "$(ssh-agent -s)"
+```
+
+Adicionar a chave SSH privada ao agente ssh:
+```
+ssh-add --apple-use-keychain .ssh/id_ed25519
+```
+
+Criar o arquivo config:
+```
+touch .ssh/config
+```
+
+
+
+
