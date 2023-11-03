@@ -65,3 +65,14 @@ Tópicos de ajuda no prompt do help:
 ```
 help> topics
 ```
+
+Para sair use a letra 'q':
+```
+help> q
+```
+
+### IDEs
+
+* micro-editor.github.io
+* code.visualstudio.com
+
