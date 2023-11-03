@@ -38,3 +38,13 @@ Comando que retorna as informações de instalação do pyhton no ambiente:
 ```
 > python3 -m site
 ```
+
+Ambiente de apredizagem do Python com exemplos de código:
+```
+> python3 -m turtledemo
+```
+
+Entrar no terminal interativo do Python (REPL - Read-Eval-Print-Loop):
+```
+>python
+```
