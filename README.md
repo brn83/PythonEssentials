@@ -22,13 +22,19 @@ Onlines IDEs
 * gitpod.io
 
 ## Aula 2
-
+ 
+ Comandos para usar o python direto no terminal
+ Exemplo 1:
 ```
 > python3 -c "print('bruno'.upper())"
 
 ```
-
+Exemplo 2:
 ```
 > python3 -c "print(45-36)"
 ```
 
+Comando que retorna as informações de instalação do pyhton no ambiente:
+```
+> python3 -m site
+```
