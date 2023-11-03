@@ -16,4 +16,19 @@ Implementação -  Implentações para rodar a liguagem
 
 Ecossistema - ..., Comunidades (PSF), Pacotes e Ferramentas (pypi.org)
 
+Onlines IDEs
+
+* replit.com
+* gitpod.io
+
+## Aula 2
+
+```
+> python3 -c "print('bruno'.upper())""
+
+```
+
+```
+> python3 -c "print(45-36)"
+```
 
