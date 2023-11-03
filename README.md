@@ -46,5 +46,5 @@ Ambiente de apredizagem do Python com exemplos de código:
 
 Entrar no terminal interativo do Python (REPL - Read-Eval-Print-Loop):
 ```
->python
+> python
 ```
