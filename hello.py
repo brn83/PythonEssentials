@@ -1,5 +1,5 @@
 
-#!python3.12.0
+#!/usr/bin/env env python3
 print ('bruno'.upper())
 
 # Este programa imprime Hello World 
