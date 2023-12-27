@@ -1,7 +1,7 @@
 
 #!/usr/bin/env python3
 
-print ('bruno'.upper())
+print('bruno'.upper())
 
 # Este programa imprime Hello World 
-print ('Hello, World!') # test-ignore
+print('Hello, World!') # test-ignore
