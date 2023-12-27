@@ -92,7 +92,7 @@ eval "$(ssh-agent -s)"
 
 Adicionar a chave SSH privada ao agente ssh:
 ```
-ssh-add --apple-use-keychain .ssh/id_ed25519
+cd 
 ```
  ou (em versões antigas do OS):
 ```
@@ -102,7 +102,18 @@ Criar o arquivo config:
 ```
 touch .ssh/config
 ```
-Teste! Teste!!!
+Listar as váriaveis de ambeinte:
+```
+env
+```
+Executando o arquivo direto:
 
-
+1. especificar no Shebang as informações de ambiente:
+```
+#!/usr/bin/env python3
+```
+2. Rodar o arquivo diretamento no terminal:
+```
+./hello.py
+```
 
