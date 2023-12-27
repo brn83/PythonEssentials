@@ -116,4 +116,7 @@ Executando o arquivo direto:
 ```
 ./hello.py
 ```
-
+Adicionar permissão para rodar o arquivo direto do terminal:
+```
+chmod +x hello.py
+```
