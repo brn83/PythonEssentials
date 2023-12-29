@@ -19,7 +19,12 @@ __version__ = "0.0.1"
 __author__ = "Bruno Fereira"
 __license__ ="Unlicense"
 
+
+current_language = "en_US"
 msg = "Hello, World!"
     
-if __name__ == "__main__":
+# if __name__ == "__main__":
+if current_language == "pt_US":
+    msg = "Olá, Mundo"
+    #imprimir o valor da var msg:    
     print(msg)
