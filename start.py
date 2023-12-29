@@ -21,7 +21,7 @@ __license__ ="Unlicense"
 
 import os
 
-current_language = os.envget("LANG")
+current_language = os.getenv("LANG")
 msg = "Hello, World!"
     
 # if __name__ == "__main__":
