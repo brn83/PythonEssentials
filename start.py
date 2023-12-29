@@ -18,7 +18,8 @@
 __version__ = "0.0.1"
 __author__ = "Bruno Fereira"
 __license__ ="Unlicense"
-  
+
+msg = "Hello, World!"
     
 if __name__ == "__main__":
-    print("Hello, World!")
+    print(msg)
