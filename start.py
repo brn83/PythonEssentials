@@ -21,11 +21,11 @@ __license__ ="Unlicense"
 
 import os
 
-current_language = os.getenv("LANG")
+current_language = os.getenv("LANG")[:5]
 msg = "Hello, World!"
     
 # if __name__ == "__main__":
-if current_language == "pt_BR.UTF-8":
+if current_language == "pt_BR":
     msg = "Olá, Mundo!"
 elif current_language == "it_IT":
     msg = "Ciao, Mondo!"
