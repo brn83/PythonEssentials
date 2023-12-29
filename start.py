@@ -24,7 +24,7 @@ current_language = "en_US"
 msg = "Hello, World!"
     
 # if __name__ == "__main__":
-if current_language == "pt_US":
+if current_language == "pt_BR.UTF-8":
     msg = "Olá, Mundo"
     #imprimir o valor da var msg:    
-    print(msg)
+print(msg)
