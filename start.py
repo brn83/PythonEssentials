@@ -19,12 +19,16 @@ __version__ = "0.0.1"
 __author__ = "Bruno Fereira"
 __license__ ="Unlicense"
 
+import os
 
-current_language = "en_US"
+current_language = os.envget("LANG")
 msg = "Hello, World!"
     
 # if __name__ == "__main__":
 if current_language == "pt_BR.UTF-8":
-    msg = "Olá, Mundo"
-    #imprimir o valor da var msg:    
+    msg = "Olá, Mundo!"
+elif current_language == "it_IT":
+    msg = "Ciao, Mondo!"
+    
+#imprimir o valor da var msg:    
 print(msg)
